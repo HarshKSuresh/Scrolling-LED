@@ -75,7 +75,7 @@ void setup(void) {
   }
   String str1 = EEPROM.readString(50);
   if (str1 == "") {
-    str1 = "Please Enter Your Text";
+    str1 = "Enter your test";
   }
   strcpy(msg, str1.c_str());
 
